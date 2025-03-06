@@ -1,4 +1,4 @@
-# List the start up tasks. Learn more: https://www.gitpod.io/docs/configure/workspaces/tasks
+
 tasks:
   #- name: Script Task
     #init: echo 'init script' # runs during prebuild => https://www.gitpod.io/docs/configure/projects/prebuilds
@@ -20,3 +20,7 @@ tasks:
     #onOpen: open-preview
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
+
+vscode:
+  extensions:
+    - vscodevim.vimd.io/docs/introduction/getting-started/quickstart
